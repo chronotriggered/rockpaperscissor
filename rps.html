@@ -3,10 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="rps.js"></script>
+    <script src="rps.js" defer></script>
+    <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/retro-new-version" rel="stylesheet">
+    <link rel="stylesheet" href="rps.css">
     <title>Rock, paper, scissor</title>
 </head>
 <body>
-   
+  <div class="container">
+    <header>ROCK, PAPER, SCISSORS by ELMO</header>
+    <main>
+      <div class="choice">
+        <div class="heading" id="he1">First to five wins, wins. What will you choose? :></div>
+        <div class="player-choice">YOUR CHOICE:</div>
+        <div class="player-buttons">
+          <button class="rock" id="rockbtn"></button>
+          <button class="paper" id="paperbtn"></button>
+          <button class="scissors" id="scissorsbtn"></button>
+        </div>
+        <div class="cpu-choice">COMPUTER CHOICE:</div>
+        <div class="opponent-icons">
+          <img src="icons/fist.png" class="rockimg"></img>
+          <img src="icons/toilet-paper.png" class="paperimg"></img>
+          <img src="icons/cut.png" class="scissorsimg"></img>
+        </div>
+      </div>
+      <div class="whoWins" id="roundWinner"></div>
+      <div class="result" id="resultsdiv"></div>
+      <div class="gameWinner" id="winner"></div>
+      <button class="resetBtn" id="reset">Play again?</button>
+    </main>
+  </div>
 </body>
 </html>

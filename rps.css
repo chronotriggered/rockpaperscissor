@@ -1,0 +1,181 @@
+body {
+    font-family: 'Annie Use Your Telescope';
+    font-size: 25px;
+    background-color:antiquewhite;
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 50px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    border: solid black;
+    border-radius: 4px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.choice {
+    padding: 30px;
+}
+
+.info {
+    margin-top: 20px;
+    text-align: center;
+    padding: 30px;
+    border: solid black;
+    border-radius: 4px;
+    background-color: aliceblue;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.heading {
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.player-choice {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.player-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    border: solid black;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+
+.cpu-choice {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.opponent-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    border: solid black;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+a
+img {
+    padding: 17px;
+    border: solid black;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+button.paper:hover {
+    background-color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button.rock:hover {
+    background-color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button.scissors:hover {
+    background-color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button.rock {
+    background-color: transparent;
+    background-image: url(icons/fist.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button.paper {
+    background-color: transparent;
+    background-image: url(icons/toilet-paper.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button.scissors {
+    background-color: transparent;
+    background-image: url(icons/cut.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.resetBtn {
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-top: 20px;
+    font-size: larger;
+    font-family: 'Annie Use Your Telescope';
+    border-radius: 5px;
+    border-color: black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.resetBtn:hover {
+    background-color: whitesmoke;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.result .whoWins .gameWinner {
+    border: solid black;
+}
+
+.rock-border {
+    border: solid black;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.paper-border {
+    border: solid black;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.scissors-border {
+    border: solid black;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
