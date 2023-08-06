@@ -127,7 +127,7 @@ function checkGameEnd() {
 
     } else if (losses == 5) {
 
-        document.getElementById("winner").textContent = "You lost the GAME! Player Wins!"
+        document.getElementById("winner").textContent = "You lost the GAME! CPU Wins!"
         document.getElementById("rockbtn").disabled = true;
         document.getElementById("scissorsbtn").disabled = true;
         document.getElementById("paperbtn").disabled = true;
