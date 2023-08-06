@@ -139,6 +139,7 @@ button.scissors {
 
 .resetBtn {
     background-color: aliceblue;
+    color: black;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     margin-top: 20px;
